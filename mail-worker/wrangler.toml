@@ -22,6 +22,9 @@ id = "eca57ab6ff044a88a26fd938990ee2fa"
 #[[send_email]]
 #name = "email"            #CF发件, 配置后优先使用
 
+[[send_email]]
+name = "forward"		# Forward in-app mail to other verified addresses; not limited to one address
+
 [ai]
 binding = "ai"
 
